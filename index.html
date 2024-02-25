@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Tea House with Daisy Khala</title>
+       <!-- Tailwind and daisy UI -->
+       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+       <script src="https://cdn.tailwindcss.com"></script>
+       <!-- font manrope -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+       <!-- font awesome kits link -->
+       <script src="https://kit.fontawesome.com/6584c82a89.js" crossorigin="anonymous"></script>
+       <!-- style for font manrope -->
+       <style>
+              .font-manrope {
+                     font-family: "Manrope", sans-serif;
+              }
+       </style>
+       <!-- tailwind custom color -->
+       <script>
+              tailwind.config = {
+                     theme: {
+                            extend: {
+                                   colors: {
+                                          clifford: '#da373d',
+                                   }
+                            }
+                     }
+              }
+       </script>
+</head>
+
+<body class="font-manrope w-dvw">
+       <header class="container mx-auto mt-16">
+              <div class="hero">
+                     <div class="hero-content flex-col lg:flex-row">
+
+                            <div>
+                                   <h1
+                                          class="text-4xl lg:text-7xl leading-[3rem] lg:leading-[6.125rem] font-extrabold text-black">
+                                          It's good <br>
+                                          tea time at The <br>
+                                          Tea House</h1>
+                                   <p class="py-6 text-base lg:text-xl font-medium text-[#777]">Tea and Botanical
+                                          Solutions Supplier
+                                          Give Optimum <br> Satisfaction To
+                                          Your Taste Buds.</p>
+                                   <button class="btn text-white border-0 bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore
+                                          More</button>
+                            </div>
+                            <div>
+                                   <img src="images/banner.png" class="max-w-md" />
+                                   <!-- rating badge -->
+                                   <div
+                                          class="-mt-20 mr-0 flex items-center gap-4 bg-white rounded-lg w-60 drop-shadow-lg p-4">
+                                          <i class="fa-solid fa-star text-3xl text-[#FFC850]"></i>
+                                          <div>
+                                                 <h3 class="text-3xl text-black">5.00</h3>
+                                                 <p>Trust Pilot Rating</p>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+              </div>
+       </header>
+       <main>
+              <!-- Our Featured Products -->
+              <section class="text-center mx-auto mt-36">
+                     <h3 class="text-4xl lg:text-5xl font-extrabold ml-[100px] lg:ml-0">
+                            Our Featured Products
+                     </h3>
+                     <h5 class="text-[1rem] font-medium text-[#777] mt-5 ml-[70px] lg:ml-0 w-dvw">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form,<br>
+                            by injected humour, or randomised words which don't look even slightly believable.
+                     </h5>
+                     <!-- Card container -->
+                     <div class="flex flex-col lg:flex-row gap-6 justify-center mt-[50px] ml-[110px] lg:ml-0">
+                            <div
+                                   class="card w-64 h-[24.5rem] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+                                   <figure><img class=" pt-[30px] pb-[30px]" src="images/tea-1.png" /></figure>
+                                   <h2 class="text-[#1C1C1C] text-2xl font-extrabold pb-[10px]">Milk Tea</h2>
+                                   <p class="text-[#777] text-[1rem] font-semibold">Creamer could be replaced <br>by
+                                          fresh milk</p>
+                            </div>
+                            <div
+                                   class="card w-64 h-[24.5rem] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+                                   <figure><img class=" pt-[30px] pb-[30px]" src="images/tea-2.png" /></figure>
+                                   <h2 class="text-[#1C1C1C] text-2xl font-extrabold pb-[10px]">Black Tea</h2>
+                                   <p class="text-[#777] text-[1rem] font-semibold">Creamer could be replaced <br>by
+                                          fresh milk</p>
+                            </div>
+                            <div
+                                   class="card w-64 h-[24.5rem] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+                                   <figure><img class=" pt-[30px] pb-[30px]" src="images/tea-3.png" /></figure>
+                                   <h2 class="text-[#1C1C1C] text-2xl font-extrabold pb-[10px]">Lemon Tea</h2>
+                                   <p class="text-[#777] text-[1rem] font-semibold">Creamer could be replaced <br>by
+                                          fresh milk</p>
+                            </div>
+                            <div
+                                   class="card w-64 h-[24.5rem] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+                                   <figure><img class=" pt-[30px] pb-[30px]" src="images/tea-4.png" /></figure>
+                                   <h2 class="text-[#1C1C1C] text-2xl font-extrabold pb-[10px]">Green Tea</h2>
+                                   <p class="text-[#777] text-[1rem] font-semibold">Creamer could be replaced <br>by
+                                          fresh milk</p>
+                            </div>
+                     </div>
+              </section>
+              <!-- Jhankar Vai -->
+              <section class="container mx-auto">
+                     <div class="text-center my-24">
+                            <h2 class="text-5xl font-extrabold mb-5">
+                                   Our Featured Products
+                            </h2>
+                            <p class="lg:max-w-3xl mx-auto mb-10">
+                                   There are many variations of passages of Lorem Ipsum available, but the majority have
+                                   suffered alteration in some form, by injected humour, or randomised words which don't
+                                   look even slightly believable.
+                            </p>
+                            <!-- featured tea and container -->
+                            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                                   <!-- First Card -->
+                                   <div
+                                          class="card  p-8 rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] ">
+                                          <figure><img src="images/tea-1.png" alt="Tea" /></figure>
+                                          <div class="card-body justify-center">
+                                                 <h2 class="text-[#1C1C1C] text-2xl font-extrabold">Milk Tea</h2>
+                                                 <p class="text-[#777] text-[1rem] font-semibold">Creamer could be
+                                                        replaced <br>by
+                                                        fresh milk</p>
+                                          </div>
+                                   </div>
+                                   <!-- Second Card -->
+                                   <div
+                                          class="card  p-8 rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] ">
+                                          <figure><img src="images/tea-2.png" alt="Tea" /></figure>
+                                          <div class="card-body justify-center">
+                                                 <h2 class="text-[#1C1C1C] text-2xl font-extrabold">Black Tea</h2>
+                                                 <p class="text-[#777] text-[1rem] font-semibold">Creamer could be
+                                                        replaced <br>by
+                                                        fresh milk</p>
+                                          </div>
+                                   </div>
+                                   <!-- Third Card -->
+                                   <div
+                                          class="card  p-8 rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] ">
+                                          <figure><img src="images/tea-3.png" alt="Tea" /></figure>
+                                          <div class="card-body justify-center">
+                                                 <h2 class="text-[#1C1C1C] text-2xl font-extrabold">Lemon Tea</h2>
+                                                 <p class="text-[#777] text-[1rem] font-semibold">Creamer could be
+                                                        replaced <br>by
+                                                        fresh milk</p>
+                                          </div>
+                                   </div>
+                                   <!-- Fourth Card -->
+                                   <div
+                                          class="card  p-8 rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] ">
+                                          <figure><img src="images/tea-4.png" alt="Tea" /></figure>
+                                          <div class="card-body justify-center">
+                                                 <h2 class="text-[#1C1C1C] text-2xl font-extrabold">Green Tea</h2>
+                                                 <p class="text-[#777] text-[1rem] font-semibold">Creamer could be
+                                                        replaced <br>by
+                                                        fresh milk</p>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+              </section>
+       </main>
+       <footer>
+
+       </footer>
+</body>
+
+</html>
